@@ -26,12 +26,16 @@ public class PlayerControll : MonoBehaviour
 
     void FixedUpdate()
     {
+       
         if (change.x != 0 && change.y != 0) 
         {
             change.x *= moveLimiter;
             change.y *= moveLimiter;
         }
+
+        //transform.SetPositionAndRotation(transform.position + change * speed * Time.deltaTime, transform.rotation);
         myRigidbody2D.velocity = new Vector2(change.x * speed, change.y * speed);
-        //myRigidbody2D.MovePosition(transform.position + change * speed * Time.deltaTime);
+        
+       /*myRigidbody2D.MovePosition(transform.position + change * speed * Time.deltaTime);*/
     }
 }

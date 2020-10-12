@@ -1,0 +1,3284 @@
+fileFormatVersion: 2
+guid: c768071d1e5fbb44d96374dbaad8a494
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 954037746627252072
+    second: MaleHero_GunC_0
+  - first:
+      213: -98009460016456071
+    second: MaleHero_GunC_1
+  - first:
+      213: 6279280243791183773
+    second: MaleHero_GunC_2
+  - first:
+      213: 3724230561852470957
+    second: MaleHero_GunC_3
+  - first:
+      213: 1408424293843953203
+    second: MaleHero_GunC_4
+  - first:
+      213: -2824131763567082020
+    second: MaleHero_GunC_5
+  - first:
+      213: 8508507103026056384
+    second: MaleHero_GunC_6
+  - first:
+      213: -8780346966826173831
+    second: MaleHero_GunC_7
+  - first:
+      213: -5758214649907288282
+    second: MaleHero_GunC_8
+  - first:
+      213: 7900274088130681047
+    second: MaleHero_GunC_9
+  - first:
+      213: 7091476863109644827
+    second: MaleHero_GunC_10
+  - first:
+      213: -8070709121868429603
+    second: MaleHero_GunC_11
+  - first:
+      213: 8841753711181515365
+    second: MaleHero_GunC_12
+  - first:
+      213: -7048012481685491707
+    second: MaleHero_GunC_13
+  - first:
+      213: -6438956007004579531
+    second: MaleHero_GunC_14
+  - first:
+      213: -1957407555012173321
+    second: MaleHero_GunC_15
+  - first:
+      213: 146561032575382545
+    second: MaleHero_GunC_16
+  - first:
+      213: -2278389777893027723
+    second: MaleHero_GunC_17
+  - first:
+      213: 4988006581486055209
+    second: MaleHero_GunC_18
+  - first:
+      213: 2752295699460040907
+    second: MaleHero_GunC_19
+  - first:
+      213: -7971245478792110606
+    second: MaleHero_GunC_20
+  - first:
+      213: 3353605891095567526
+    second: MaleHero_GunC_21
+  - first:
+      213: 6385778123816388202
+    second: MaleHero_GunC_22
+  - first:
+      213: -8289475576929433468
+    second: MaleHero_GunC_23
+  - first:
+      213: 2094541216207804890
+    second: MaleHero_GunC_24
+  - first:
+      213: -3100225033358915137
+    second: MaleHero_GunC_25
+  - first:
+      213: 6284244870785685457
+    second: MaleHero_GunC_26
+  - first:
+      213: -3014621442111168372
+    second: MaleHero_GunC_27
+  - first:
+      213: 3534320429916686119
+    second: MaleHero_GunC_28
+  - first:
+      213: -941679358270661852
+    second: MaleHero_GunC_29
+  - first:
+      213: -3884982389920366012
+    second: MaleHero_GunC_30
+  - first:
+      213: -3830633351444838295
+    second: MaleHero_GunC_31
+  - first:
+      213: 5443273614998277324
+    second: MaleHero_GunC_32
+  - first:
+      213: 3297730915963461231
+    second: MaleHero_GunC_33
+  - first:
+      213: -319057260275727856
+    second: MaleHero_GunC_34
+  - first:
+      213: -25203477965008584
+    second: MaleHero_GunC_35
+  - first:
+      213: 1188562998303987765
+    second: MaleHero_GunC_36
+  - first:
+      213: -6393855781225322105
+    second: MaleHero_GunC_37
+  - first:
+      213: 7942559090266199664
+    second: MaleHero_GunC_38
+  - first:
+      213: 130215881210835994
+    second: MaleHero_GunC_39
+  - first:
+      213: -8763925434633000768
+    second: MaleHero_GunC_40
+  - first:
+      213: 6606878408104773089
+    second: MaleHero_GunC_41
+  - first:
+      213: -1626732112618935308
+    second: MaleHero_GunC_42
+  - first:
+      213: -2532263963029451781
+    second: MaleHero_GunC_43
+  - first:
+      213: -8865261634279452097
+    second: MaleHero_GunC_44
+  - first:
+      213: -8877125899560470404
+    second: MaleHero_GunC_45
+  - first:
+      213: 5965779538254892659
+    second: MaleHero_GunC_46
+  - first:
+      213: -5624807526260345676
+    second: MaleHero_GunC_47
+  - first:
+      213: 3264569402766599789
+    second: MaleHero_GunC_48
+  - first:
+      213: -1979647654438740082
+    second: MaleHero_GunC_49
+  - first:
+      213: 5881406508816303367
+    second: MaleHero_GunC_50
+  - first:
+      213: 9081616896265159818
+    second: MaleHero_GunC_51
+  - first:
+      213: 2122445694866031756
+    second: MaleHero_GunC_52
+  - first:
+      213: 6772826283955572974
+    second: MaleHero_GunC_53
+  - first:
+      213: 3259914631677225396
+    second: MaleHero_GunC_54
+  - first:
+      213: -8570487218281374714
+    second: MaleHero_GunC_55
+  - first:
+      213: 82169676290863623
+    second: MaleHero_GunC_56
+  - first:
+      213: -2864350659629924413
+    second: MaleHero_GunC_57
+  - first:
+      213: 9144074747049824719
+    second: MaleHero_GunC_58
+  - first:
+      213: -3390861859877760246
+    second: MaleHero_GunC_59
+  - first:
+      213: -7450025002177896885
+    second: MaleHero_GunC_60
+  - first:
+      213: -405758925890801251
+    second: MaleHero_GunC_61
+  - first:
+      213: 9136925745912339915
+    second: MaleHero_GunC_62
+  - first:
+      213: 266623143895527632
+    second: MaleHero_GunC_63
+  - first:
+      213: -3482519208731674313
+    second: MaleHero_GunC_64
+  - first:
+      213: 1316927898107379016
+    second: MaleHero_GunC_65
+  - first:
+      213: -4187014006455403858
+    second: MaleHero_GunC_66
+  - first:
+      213: 1071872726570382401
+    second: MaleHero_GunC_67
+  - first:
+      213: 5818933307867531368
+    second: MaleHero_GunC_68
+  - first:
+      213: -5204179506713560684
+    second: MaleHero_GunC_69
+  - first:
+      213: -1371634652281202767
+    second: MaleHero_GunC_70
+  - first:
+      213: -3904290198223788845
+    second: MaleHero_GunC_71
+  - first:
+      213: 3764738365806744136
+    second: MaleHero_GunC_72
+  - first:
+      213: -2546357712225189246
+    second: MaleHero_GunC_73
+  - first:
+      213: 6707966742901718929
+    second: MaleHero_GunC_74
+  - first:
+      213: 5846336954346511347
+    second: MaleHero_GunC_75
+  - first:
+      213: -3155973952613912464
+    second: MaleHero_GunC_76
+  - first:
+      213: -4299047920010687334
+    second: MaleHero_GunC_77
+  - first:
+      213: 9139882003332973499
+    second: MaleHero_GunC_78
+  - first:
+      213: -7895241692316620554
+    second: MaleHero_GunC_79
+  - first:
+      213: -4336319562955940338
+    second: MaleHero_GunC_80
+  - first:
+      213: 2452738700388302394
+    second: MaleHero_GunC_81
+  - first:
+      213: -590308567101775577
+    second: MaleHero_GunC_82
+  - first:
+      213: -1227143484469845301
+    second: MaleHero_GunC_83
+  - first:
+      213: 581677250899874939
+    second: MaleHero_GunC_84
+  - first:
+      213: -4938073275850311450
+    second: MaleHero_GunC_85
+  - first:
+      213: 8943321069490292903
+    second: MaleHero_GunC_86
+  - first:
+      213: 7197926209129873148
+    second: MaleHero_GunC_87
+  - first:
+      213: -1016284057998431714
+    second: MaleHero_GunC_88
+  - first:
+      213: -1933297956712774408
+    second: MaleHero_GunC_89
+  - first:
+      213: 5788409671514100544
+    second: MaleHero_GunC_90
+  - first:
+      213: 7825710966697840923
+    second: MaleHero_GunC_91
+  - first:
+      213: -3273632051561684081
+    second: MaleHero_GunC_92
+  - first:
+      213: -8288845519560035967
+    second: MaleHero_GunC_93
+  - first:
+      213: 4345949021756189654
+    second: MaleHero_GunC_94
+  - first:
+      213: -6157924771803028185
+    second: MaleHero_GunC_95
+  - first:
+      213: -8253629524647193295
+    second: MaleHero_GunC_96
+  - first:
+      213: 4437246855285358072
+    second: MaleHero_GunC_97
+  - first:
+      213: 2875417017999765621
+    second: MaleHero_GunC_98
+  - first:
+      213: -6494672670420252931
+    second: MaleHero_GunC_99
+  - first:
+      213: -8827116267060495774
+    second: MaleHero_GunC_100
+  - first:
+      213: 6103301752225137296
+    second: MaleHero_GunC_101
+  - first:
+      213: 2024461783616129962
+    second: MaleHero_GunC_102
+  - first:
+      213: -8251686214524756506
+    second: MaleHero_GunC_103
+  - first:
+      213: -539709743058266145
+    second: MaleHero_GunC_104
+  - first:
+      213: 3519379818058143244
+    second: MaleHero_GunC_105
+  - first:
+      213: -5750392027567657580
+    second: MaleHero_GunC_106
+  - first:
+      213: 1476928102800639260
+    second: MaleHero_GunC_107
+  - first:
+      213: 3048461374592441497
+    second: MaleHero_GunC_108
+  - first:
+      213: 7107299197961491727
+    second: MaleHero_GunC_109
+  - first:
+      213: 301897112532719388
+    second: MaleHero_GunC_110
+  - first:
+      213: -3392672038110716991
+    second: MaleHero_GunC_111
+  - first:
+      213: 5072908985399927531
+    second: MaleHero_GunC_112
+  - first:
+      213: -3833524750471761891
+    second: MaleHero_GunC_113
+  - first:
+      213: -2315352667424602484
+    second: MaleHero_GunC_114
+  - first:
+      213: 5265223519833424314
+    second: MaleHero_GunC_115
+  - first:
+      213: -7864021571837218374
+    second: MaleHero_GunC_116
+  - first:
+      213: -8031149772756026208
+    second: MaleHero_GunC_117
+  - first:
+      213: -7600472503438183883
+    second: MaleHero_GunC_118
+  - first:
+      213: 7548179847120264181
+    second: MaleHero_GunC_119
+  - first:
+      213: 6023032002952263884
+    second: MaleHero_GunC_120
+  - first:
+      213: 2995563197642852887
+    second: MaleHero_GunC_121
+  - first:
+      213: -2898370091444641364
+    second: MaleHero_GunC_122
+  - first:
+      213: -4887739451961811153
+    second: MaleHero_GunC_123
+  - first:
+      213: 7046942143803345959
+    second: MaleHero_GunC_124
+  - first:
+      213: -664566107085811696
+    second: MaleHero_GunC_125
+  - first:
+      213: -8621962623120972708
+    second: MaleHero_GunC_126
+  - first:
+      213: -5765045269897554027
+    second: MaleHero_GunC_127
+  - first:
+      213: 5204892382028513952
+    second: MaleHero_GunC_128
+  - first:
+      213: -8278752362413358874
+    second: MaleHero_GunC_129
+  - first:
+      213: -6950012961225970800
+    second: MaleHero_GunC_130
+  - first:
+      213: 6728383734541300871
+    second: MaleHero_GunC_131
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MaleHero_GunC_0
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86f080e964c6d3d00800000000000000
+      internalID: 954037746627252072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_1
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 448
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e57175aecc3aef0800000000000000
+      internalID: -98009460016456071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_2
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f3d48dc1c742750800000000000000
+      internalID: 6279280243791183773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6bed4d6ff1fa330800000000000000
+      internalID: 3724230561852470957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_4
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 448
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336699fde6abb8310800000000000000
+      internalID: 1408424293843953203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_5
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5cfa9bf1baec8d0800000000000000
+      internalID: -2824131763567082020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_6
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc81c4512a441670800000000000000
+      internalID: 8508507103026056384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_7
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 448
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ab5a534f0f52680800000000000000
+      internalID: -8780346966826173831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_8
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62763d3c846b610b0800000000000000
+      internalID: -5758214649907288282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8904bfc6963ad60800000000000000
+      internalID: 7900274088130681047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_10
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 448
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b124d8e72acf96260800000000000000
+      internalID: 7091476863109644827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_11
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 448
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6078960d41fff80800000000000000
+      internalID: -8070709121868429603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_12
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 384
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a477a972834ba70800000000000000
+      internalID: 8841753711181515365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 384
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500fd986dfd603e90800000000000000
+      internalID: -7048012481685491707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_14
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 384
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539df1e60ab34a6a0800000000000000
+      internalID: -6438956007004579531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 384
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f165d21334e5d4e0800000000000000
+      internalID: -1957407555012173321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_16
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 384
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 114f19c8b70b80200800000000000000
+      internalID: 146561032575382545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_17
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 384
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5701ec481988160e0800000000000000
+      internalID: -2278389777893027723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_18
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 384
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f69caee85f83540800000000000000
+      internalID: 4988006581486055209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_19
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 384
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8a62b3b5e123620800000000000000
+      internalID: 2752295699460040907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_20
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 384
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd58237872706190800000000000000
+      internalID: -7971245478792110606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_21
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 384
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac986f2ac66a8e20800000000000000
+      internalID: 3353605891095567526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_22
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 412
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a66498cce57de9850800000000000000
+      internalID: 6385778123816388202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_23
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 384
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48848ded1edd5fc80800000000000000
+      internalID: -8289475576929433468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_24
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 414
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad91b77832e411d10800000000000000
+      internalID: 2094541216207804890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_25
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 384
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb94ed202c9c9f4d0800000000000000
+      internalID: -3100225033358915137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_26
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 412
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d750c42a6f163750800000000000000
+      internalID: 6284244870785685457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_27
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 400
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8020b245c9e926d0800000000000000
+      internalID: -3014621442111168372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_28
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 402
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727079394bd6c0130800000000000000
+      internalID: 3534320429916686119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_29
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 400
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b95f5ec9b7ee2f0800000000000000
+      internalID: -941679358270661852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_30
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 320
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44206229915c51ac0800000000000000
+      internalID: -3884982389920366012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_31
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 320
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968cd5e234bd6dac0800000000000000
+      internalID: -3830633351444838295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_32
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 320
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc8a3d53846a8b40800000000000000
+      internalID: 5443273614998277324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_33
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 320
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6e53d2cbc4e3cd20800000000000000
+      internalID: 3297730915963461231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_34
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 320
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012814abc1b729bf0800000000000000
+      internalID: -319057260275727856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_35
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 320
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8319ac0029576aff0800000000000000
+      internalID: -25203477965008584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_36
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 320
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538151befbf9e7010800000000000000
+      internalID: 1188562998303987765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_37
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 320
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789acf60b067447a0800000000000000
+      internalID: -6393855781225322105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_38
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 320
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 076ddde3963a93e60800000000000000
+      internalID: 7942559090266199664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_39
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 320
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14bfaf67ae9ec100800000000000000
+      internalID: 130215881210835994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_40
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 348
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c860be1048406680800000000000000
+      internalID: -8763925434633000768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_41
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 316
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e5884d48e850bb50800000000000000
+      internalID: 6606878408104773089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_42
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 350
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fba0aa23cfac69e0800000000000000
+      internalID: -1626732112618935308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_43
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 320
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfb4b1697579bdcd0800000000000000
+      internalID: -2532263963029451781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_44
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 348
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32dfd7838348f480800000000000000
+      internalID: -8865261634279452097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_45
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 336
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783742070d1ec480800000000000000
+      internalID: -8877125899560470404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_46
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 338
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e0af9c1e4bac250800000000000000
+      internalID: 5965779538254892659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_47
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 336
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4fe4b3b5ba0f1b0800000000000000
+      internalID: -5624807526260345676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_48
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 256
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66238c43941e4d20800000000000000
+      internalID: 3264569402766599789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_49
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 256
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f5eb862f0e684e0800000000000000
+      internalID: -1979647654438740082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_50
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 256
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7058aa90f04fe9150800000000000000
+      internalID: 5881406508816303367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_51
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 310
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8402106372680e70800000000000000
+      internalID: 9081616896265159818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_52
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 256
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c840c814d11747d10800000000000000
+      internalID: 2122445694866031756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_53
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 312
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0d99c0f99edfd50800000000000000
+      internalID: 6772826283955572974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_54
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 310
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b92833f51b8d3d20800000000000000
+      internalID: 3259914631677225396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_55
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 256
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c105a88438f0980800000000000000
+      internalID: -8570487218281374714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_56
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 310
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70230ae92ece32100800000000000000
+      internalID: 82169676290863623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_57
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 312
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf3a944048cf38d0800000000000000
+      internalID: -2864350659629924413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_58
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 256
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc15689f88746ee70800000000000000
+      internalID: 9144074747049824719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_59
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 310
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03d09f9a1d31f0d0800000000000000
+      internalID: -3390861859877760246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_60
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 256
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e58618bb13c9890800000000000000
+      internalID: -7450025002177896885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_61
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 256
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91b5dd18647e5af0800000000000000
+      internalID: -405758925890801251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_62
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 256
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdd9307e81ecce70800000000000000
+      internalID: 9136925745912339915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_63
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 256
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d07ac4365c33b300800000000000000
+      internalID: 266623143895527632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_64
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 256
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739f2181b3b9bafc0800000000000000
+      internalID: -3482519208731674313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_65
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 256
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dfd7922faa64210800000000000000
+      internalID: 1316927898107379016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaf3a3e1fcb4e5c0800000000000000
+      internalID: -4187014006455403858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_67
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14438a7d09e00ee00800000000000000
+      internalID: 1071872726570382401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_68
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8680223730101c050800000000000000
+      internalID: 5818933307867531368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49978f2cf4a07c7b0800000000000000
+      internalID: -5204179506713560684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_70
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 192
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7992d0d89f6fce0800000000000000
+      internalID: -1371634652281202767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_71
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4e4d220cc21d9c0800000000000000
+      internalID: -3904290198223788845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_72
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8421236e8990f3430800000000000000
+      internalID: 3764738365806744136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_73
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 192
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282cdb3e62589acd0800000000000000
+      internalID: -2546357712225189246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_74
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f7acb563c771d50800000000000000
+      internalID: 6707966742901718929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_75
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb10191c7c522150800000000000000
+      internalID: 5846336954346511347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_76
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 192
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 070ff02496ab334d0800000000000000
+      internalID: -3155973952613912464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_77
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 192
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c816fa1b6b654c0800000000000000
+      internalID: -4299047920010687334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_78
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 128
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3c5a1c14267de70800000000000000
+      internalID: 9139882003332973499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_79
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 128
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f82d99f2877e6290800000000000000
+      internalID: -7895241692316620554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_80
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 128
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e1f61155c42d3c0800000000000000
+      internalID: -4336319562955940338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_81
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 128
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7f735ad0e90220800000000000000
+      internalID: 2452738700388302394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_82
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 128
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721670e5c7dcec7f0800000000000000
+      internalID: -590308567101775577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_83
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 128
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc26db7a08f48fee0800000000000000
+      internalID: -1227143484469845301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_84
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 128
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7410d9b068821800800000000000000
+      internalID: 581677250899874939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_85
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 128
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8b716c480787bb0800000000000000
+      internalID: -4938073275850311450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_86
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 128
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a84c33012f0d1c70800000000000000
+      internalID: 8943321069490292903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_87
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 128
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfef8ae30cb24e360800000000000000
+      internalID: 7197926209129873148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_88
+      rect:
+        serializedVersion: 2
+        x: 1190
+        y: 156
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a6c14a80f65e1f0800000000000000
+      internalID: -1016284057998431714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_89
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 128
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f4852d50cb8b25e0800000000000000
+      internalID: -1933297956712774408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_90
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 158
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043980d8def845050800000000000000
+      internalID: 5788409671514100544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_91
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 128
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1157ec69a28a9c60800000000000000
+      internalID: 7825710966697840923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_92
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 156
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8325595ef8b192d0800000000000000
+      internalID: -3273632051561684081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_93
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 144
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18139888aea18fc80800000000000000
+      internalID: -8288845519560035967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_94
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 146
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbebb50c99ef4c30800000000000000
+      internalID: 4345949021756189654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_95
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 144
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7252a1fcb08aa8aa0800000000000000
+      internalID: -6157924771803028185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_96
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 64
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1355abb4da7357d80800000000000000
+      internalID: -8253629524647193295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_97
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 64
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb00e5184449d30800000000000000
+      internalID: 4437246855285358072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_98
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 64
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5703df21b8887e720800000000000000
+      internalID: 2875417017999765621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_99
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 64
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6c923dd994ed5a0800000000000000
+      internalID: -6494672670420252931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_100
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 64
+        width: 56
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a79cee588cf7580800000000000000
+      internalID: -8827116267060495774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_101
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 64
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09206626b9843b450800000000000000
+      internalID: 6103301752225137296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_102
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 64
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab0bc12445581c10800000000000000
+      internalID: 2024461783616129962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_103
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 64
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed93417b1f1c7d80800000000000000
+      internalID: -8251686214524756506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_104
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 64
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7d13329d09288f0800000000000000
+      internalID: -539709743058266145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_105
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 64
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06d80d4c4957d030800000000000000
+      internalID: 3519379818058143244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_106
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 92
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6795fae08230b0800000000000000
+      internalID: -5750392027567657580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_107
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 60
+        width: 50
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c15493ec84a1f7410800000000000000
+      internalID: 1476928102800639260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_108
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 94
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cd410087f4e4a20800000000000000
+      internalID: 3048461374592441497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_109
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 64
+        width: 50
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05d9e6e6f232a260800000000000000
+      internalID: 7107299197961491727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_110
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 92
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c179a3703dd803400800000000000000
+      internalID: 301897112532719388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_111
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 80
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb9209a1cecae0d0800000000000000
+      internalID: -3392672038110716991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_112
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 82
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be266a448d7966640800000000000000
+      internalID: 5072908985399927531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_113
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 80
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d107672ec859ccac0800000000000000
+      internalID: -3833524750471761891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_114
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c86476824073edfd0800000000000000
+      internalID: -2315352667424602484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_115
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 0
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab104ba15e4d11940800000000000000
+      internalID: 5265223519833424314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_116
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 0
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab132a8bb026dd290800000000000000
+      internalID: -7864021571837218374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_117
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 54
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acfae025df9b8090800000000000000
+      internalID: -8031149772756026208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_118
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 30
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5327173f682b58690800000000000000
+      internalID: -7600472503438183883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_119
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 56
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb9d58349580c860800000000000000
+      internalID: 7548179847120264181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_120
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 54
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc877cef1bb169350800000000000000
+      internalID: 6023032002952263884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_121
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 0
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a4cb96bd0629920800000000000000
+      internalID: 2995563197642852887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_122
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca163df02cbe6c7d0800000000000000
+      internalID: -2898370091444641364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_123
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 56
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f57236dd24b2cb0800000000000000
+      internalID: -4887739451961811153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_124
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 0
+        width: 28
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72cc0222b84cbc160800000000000000
+      internalID: 7046942143803345959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_125
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 010d26985acf6c6f0800000000000000
+      internalID: -664566107085811696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_126
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c54ed26eca2a85880800000000000000
+      internalID: -8621962623120972708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_127
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 0
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597d5bd1fd17effa0800000000000000
+      internalID: -5765045269897554027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_128
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 0
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a242f47b0e7b3840800000000000000
+      internalID: 5204892382028513952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_129
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 0
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00deec696fb1d80800000000000000
+      internalID: -8278752362413358874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_130
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 0
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09be3c5d8089c8f90800000000000000
+      internalID: -6950012961225970800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MaleHero_GunC_131
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 0
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784b9d9ab55006d50800000000000000
+      internalID: 6728383734541300871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

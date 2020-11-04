@@ -8,6 +8,7 @@ public class PlayerControll : MonoBehaviour
     public float moveLimiter = 0.7f;
     private Rigidbody2D myRigidbody2D;
     private Vector3 change;
+    private bool isDead = false;
 
     void Start()
     {
@@ -17,25 +18,47 @@ public class PlayerControll : MonoBehaviour
 
     void Update()
     {
-        change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal") ;
-        change.y = Input.GetAxisRaw("Vertical") ;
-        Debug.Log(change);
+        if (!isDead)
+        {
+            change = Vector3.zero;
+            change.x = Input.GetAxisRaw("Horizontal");
+            change.y = Input.GetAxisRaw("Vertical");
+            if (change.x != 0 && change.y != 0)
+            {
+                change.x *= moveLimiter;
+                change.y *= moveLimiter;
+            }
+
+        }
+
+        else
+        {
+            myRigidbody2D.velocity = Vector2.zero;
+        }
+
+        //Debug.Log(change);
+    }
+
+
+    public void setIsDead(bool isDead)
+    {
+        Debug.Log("Dead");
+        this.isDead = isDead;
+    }
+
+    public bool PlayerIsDead()
+    {
+        return isDead;
     }
 
 
     void FixedUpdate()
     {
-       
-        if (change.x != 0 && change.y != 0) 
-        {
-            change.x *= moveLimiter;
-            change.y *= moveLimiter;
-        }
+        Move();
+    }
 
-        //transform.SetPositionAndRotation(transform.position + change * speed * Time.deltaTime, transform.rotation);
+    public void Move()
+    {
         myRigidbody2D.velocity = new Vector2(change.x * speed, change.y * speed);
-        
-       /*myRigidbody2D.MovePosition(transform.position + change * speed * Time.deltaTime);*/
     }
 }

@@ -1,4 +1,5 @@
 ﻿using JetBrains.Annotations;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
@@ -6,8 +7,8 @@ using UnityEngine;
 
 public class PlayerResoursesManager : MonoBehaviour
 {
-    private int healthMax;
-    private int currentHealth;
+    public int healthMax;
+    public int currentHealth;
 
     private int armour;
 
@@ -17,14 +18,24 @@ public class PlayerResoursesManager : MonoBehaviour
     private int staminaMax;
     private int currentStamina;
 
+    public PlayerControll PlayerControll;
+
     void Start()
     {
-        
+        PlayerControll = GetComponent<PlayerControll>();
+        currentHealth = healthMax;
     }
 
     void Update()
     {
-        
+        if (currentHealth <= 0)
+        {
+            PlayerControll.setIsDead(true);
+            
+        }
+
+        //Debug.Log(currentHealth);
+
     }
 
     // Current heath methods 
@@ -89,17 +100,16 @@ public class PlayerResoursesManager : MonoBehaviour
     }
 
 
-
     // Damage methods
     public void TakeDamage(int damage)
     {
-        int takenDamage = (int)(1 - (float)damage * (.7 * armour));
-        if (currentHealth < takenDamage)
-            currentHealth = 0;
-        else
-            currentHealth -= takenDamage;
+        int takenDamage = (int)(1 +(float)damage * (.7 / armour));
+        currentHealth = Mathf.Clamp(currentHealth - takenDamage, 0, healthMax);
+        if (currentHealth == 0)
+        {
+            //Смерть
+        }
     }
-
 
 
 }

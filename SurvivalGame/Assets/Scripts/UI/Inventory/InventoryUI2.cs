@@ -15,7 +15,7 @@ public class InventoryUI2 : MonoBehaviour
     public bool Test;
 
 
-    private void Start()
+    private void Awake()
     {
         slots.AddRange(hotbarPlane.transform.GetComponentsInChildren<SlotUI>());
         slots.AddRange(inventoryPlane.transform.GetComponentsInChildren<SlotUI>());

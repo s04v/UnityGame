@@ -4,19 +4,12 @@ using UnityEngine;
 
 public class DropedItem : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer spriteRenderer;
-    public ItemBase item;
-    public int count;
-
-    public DropedItem(ItemBase item, int count)
-    {
-        this.item = item;
-        this.count = count;
-    }
+    [SerializeField]private SpriteRenderer spriteRenderer;
+    [SerializeField]private ItemPicker item;
 
     void Start()
     {
-        RenderDropedItem();
+       // spriteRenderer.sprite = item.item.item.icon; d
     }
 
     void Update()
@@ -24,21 +17,4 @@ public class DropedItem : MonoBehaviour
         
     }
 
-    public void MergeDropedItems(DropedItem dropedItem)
-    {
-        this.count += dropedItem.count;
-    }
-
-    public void RenderDropedItem()
-    {
-        if (item == null || count == 0)
-        {
-            spriteRenderer.enabled = false;
-        }
-        else
-        {
-            spriteRenderer.sprite = item.icon;
-            spriteRenderer.enabled = true;
-        }
-    }
 }

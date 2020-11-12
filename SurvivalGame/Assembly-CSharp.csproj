@@ -76,18 +76,27 @@
     <Compile Include="Assets\Scripts\Items\Inventory\ItemSlots\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Items\Inventory\ItemSlots\LegsSlot.cs" />
     <Compile Include="Assets\Scripts\Items\ItemsDataBase\ItemDataBase.cs" />
+    <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerControll.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerResoursesManager.cs" />
     <Compile Include="Assets\Scripts\TextMesseges\BaseMessege.cs" />
     <Compile Include="Assets\Scripts\TextMesseges\DamageMessege.cs" />
     <Compile Include="Assets\Scripts\UI\Button\Button.cs" />
+    <Compile Include="Assets\Scripts\UI\Cursor\CursorController.cs" />
+    <Compile Include="Assets\Scripts\UI\Cursor\CustomCursor.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\Button\SlotButton.cs" />
+    <Compile Include="Assets\Scripts\UI\Inventory\HotBarUI.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\InventoryUI.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\InventoryUI2.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\SelectedHotbarItemMarker.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\Slots\SelectedItemSlot.cs" />
-    <Compile Include="Assets\Scripts\UI\Inventory\Slots\SlotInvTest.cs" />
     <Compile Include="Assets\Scripts\UI\Inventory\Slots\SlotUI.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu\Tabs\Tab.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu\Tabs\TabSystem.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScripts\GUIManager.cs" />
+    <Compile Include="Assets\Scripts\UI\UIScripts\LayoutGroup\FlexibleGridLayout.cs" />
+    <Compile Include="Assets\Scripts\Utils\Singleton.cs" />
+    <None Include="Assets\Shaders\BlurShader.shader" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

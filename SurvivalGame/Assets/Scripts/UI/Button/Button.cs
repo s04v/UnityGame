@@ -35,17 +35,17 @@ public class Button : MonoBehaviour, IPointerClickHandler, IPointerDownHandler, 
     {
         if (eventData.button == PointerEventData.InputButton.Left)
         {
-            isLeftPressed = true;
+            isLeftPressed = false;
             OnLeftUp();
         }
         else if (eventData.button == PointerEventData.InputButton.Right)
         {
-            isRightPressed = true;
+            isRightPressed = false;
             OnRightUp();
         }
         else if (eventData.button == PointerEventData.InputButton.Middle)
         {
-            isMiddlePressed = true;
+            isMiddlePressed = false;
             OnMiddleUp();
         }
     }

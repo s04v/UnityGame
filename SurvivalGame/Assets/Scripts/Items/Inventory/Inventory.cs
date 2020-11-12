@@ -89,7 +89,38 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void AddItemToInventoryArray(ItemBase item, int count)//Добавляет предмет в пустой слот
+    /*public void DropItem(int index, ref bool isPressed)(еще не реализовано)
+    {
+        if (selectedItem.IsNull())
+        {
+            if (!inventoryContent[index].IsNull())
+            {
+
+            }
+            else
+            {
+                return;
+            }
+        }
+        else 
+        {
+            selectedItem.Count--;
+            // Item drop
+            update?.Invoke();
+        }
+    }*/
+
+    /*private IEnumerator ItemDropping(InventorySlot slot, ref bool isPressed) (пока что но хуй его знает как реализовать может придумаю)
+    {
+        while (!slot.IsNull())
+        {
+            slot.Count--;
+            //drop item
+            yield return new WaitForSeconds(1);
+        }
+    }*/
+
+    public void AddItemToEmptyInventorySlots(ItemBase item, int count)//Добавляет предмет в пустой слот
     {
         List<int> emptySlotsList = FindEmptySlots();
         if (emptySlotsList.Count == 0)
@@ -117,10 +148,9 @@ public class Inventory : MonoBehaviour
         update?.Invoke();
     } //(Сделать перегрузку для InventorySlot)
 
-    public void AddItemToInventoryArray(InventorySlot item)//Добавляет предмет в пустой слот (Работает)
+    public void AddItemToEmptyInventorySlots(InventorySlot item)//Добавляет предмет в пустой слот (Работает)
     {
         int emptySlotIndex = FindEmptySlot();
-        Debug.Log("Empty slot index " + emptySlotIndex);
         if (emptySlotIndex == -1)
             return;
         else
@@ -164,12 +194,12 @@ public class Inventory : MonoBehaviour
             }
             if (count > 0)
             {
-                AddItemToInventoryArray(item, count);
+                AddItemToEmptyInventorySlots(item, count);
             }
         }
         else
         {
-            AddItemToInventoryArray(item, count);
+            AddItemToEmptyInventorySlots(item, count);
         }
     }//(Сделать перегрузку для InventorySlot)
 
@@ -181,7 +211,6 @@ public class Inventory : MonoBehaviour
         }
 
         List<int> itemList = FindItem(item.item);
-        Debug.Log(itemList.Count);
         if (itemList.Count > 0 && item.item.maxStackSize > 1)
         {
 
@@ -193,7 +222,6 @@ public class Inventory : MonoBehaviour
                     if (countToAdd >= item.Count)
                     {
                         countToAdd = item.Count;
-                        Debug.Log("Count to add " + countToAdd);
                         inventoryContent[i].Count += countToAdd;
                         item.Count = 0;
                         update?.Invoke();
@@ -212,14 +240,23 @@ public class Inventory : MonoBehaviour
             }
             if (item.Count > 0)
             {
-                AddItemToInventoryArray(item);
+                AddItemToEmptyInventorySlots(item);
             }
         }
         else
         {
-            AddItemToInventoryArray(item);
+            AddItemToEmptyInventorySlots(item);
         }
     }//(Сделать перегрузку для InventorySlot)
+
+    public void ClearInventory()
+    {
+        for (int i = 0; i < invetorySize + hotbarSize; i++)
+        {
+            inventoryContent[i].RemoveItem();
+        }
+        selectedItem.RemoveItem();
+    }
 
     public void ResetInventory()//Сбрасывает инвентарь
     {
@@ -232,7 +269,6 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < invetorySize + hotbarSize; i++)
         {
-            Debug.Log("Create slot " + i);
             inventoryContent.Add(new InventorySlot());
         }
         selectedItem = new InventorySlot();

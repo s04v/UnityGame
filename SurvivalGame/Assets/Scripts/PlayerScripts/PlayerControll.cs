@@ -10,6 +10,8 @@ public class PlayerControll : MonoBehaviour
     private Vector3 change;
     private bool isDead = false;
 
+   
+
     void Start()
     {
         myRigidbody2D = GetComponent<Rigidbody2D>();
@@ -60,5 +62,17 @@ public class PlayerControll : MonoBehaviour
     public void Move()
     {
         myRigidbody2D.velocity = new Vector2(change.x * speed, change.y * speed);
+    }
+
+
+
+
+
+    enum PlayerDirection
+    {
+        Left,
+        Right,
+        Top,
+        Down
     }
 }

@@ -13,10 +13,10 @@ public class SelectedItemSlot : SlotUI
         rect = this.GetComponent<RectTransform>();
     }
 
-    void Update()
+    /*void Update()
     {
         Vector2 mousePos = (Vector2)Input.mousePosition + offset;//Camera.main.ScreenToWorldPoint(Input.mousePosition); ;//
         rect.anchoredPosition = mousePos;//Input.mousePosition; //+ offset;
-    }
+    }*/
 
 }

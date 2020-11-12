@@ -13,13 +13,11 @@ public class SlotUI : MonoBehaviour
 
     public void OnLeftClicked()
     {
-        Debug.Log(index + "Left");
         inventoryUI.OnLeftSlotClicked(index);
     }
 
     public void OnRightClicked()
     {
-        Debug.Log(index + "Right");
         inventoryUI.OnRightSlotClicked(index);
     }
 

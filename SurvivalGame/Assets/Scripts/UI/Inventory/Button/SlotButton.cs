@@ -18,6 +18,7 @@ public class SlotButton : Button
 
     public override void OnLeftClick()
     {
+        Debug.Log("Spierdalaj");
         if (!interactable)
             return;
         onLeftClickEvent?.Invoke(slot.index);

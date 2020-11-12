@@ -21,10 +21,9 @@ public class ItemPicker : MonoBehaviour
         inventory = collider.GetComponent<Inventory>();
         if (inventory != null)
         {
-            Debug.Log("Ok");
             inventory.AddItemToInventory(item);
+            Object.Destroy(gameObject);
         }
-        Debug.Log("nie");
         //Pick(Item.TargetInventoryName);
     }
 }

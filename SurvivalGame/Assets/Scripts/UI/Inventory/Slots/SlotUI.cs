@@ -9,16 +9,31 @@ public class SlotUI : MonoBehaviour
     public int index;
     [SerializeField] private Image icon;
     [SerializeField] private Text count;
-    public InventoryUI2 inventoryUI;
+    private IUIItemContainer targetContainer;
+
+    private void Start()
+    {
+        targetContainer = GetComponentInParent<IUIItemContainer>();
+    }
+
+    public void OnPointerEnter()
+    {
+        targetContainer.OnSlotHover(index);
+    } 
+
+    public void OnPointerExit()
+    {
+        targetContainer.OnSlotIdle(index);
+    }
 
     public void OnLeftClicked()
     {
-        inventoryUI.OnLeftSlotClicked(index);
+        targetContainer.OnLeftSlotClicked(index);
     }
 
     public void OnRightClicked()
     {
-        inventoryUI.OnRightSlotClicked(index);
+        targetContainer.OnRightSlotClicked(index);
     }
 
     public void UpdateItem(InventorySlot item)

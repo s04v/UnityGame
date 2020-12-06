@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
 
-public class PlayerResoursesManager : MonoBehaviour
+public class PlayerResoursesManager : MonoBehaviour, IEntityResourseSystem
 {
     public int healthMax;
     public int currentHealth;
@@ -18,11 +18,14 @@ public class PlayerResoursesManager : MonoBehaviour
     private int staminaMax;
     private int currentStamina;
 
-    public PlayerControll PlayerControll;
+    public PlayerController PlayerControll;
+
+    public int Health { get { return currentHealth; }}
+    //public bool IsAlive { get =}
 
     void Start()
     {
-        PlayerControll = GetComponent<PlayerControll>();
+        PlayerControll = GetComponent<PlayerController>();
         currentHealth = healthMax;
     }
 

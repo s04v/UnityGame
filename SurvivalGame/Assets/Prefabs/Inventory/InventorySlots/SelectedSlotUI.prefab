@@ -59,7 +59,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -188,7 +188,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -99.96002, y: -11.769989}
+  m_AnchoredPosition: {x: -99.95996, y: -11.77002}
   m_SizeDelta: {x: -1105.68, y: -480.44415}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6029004912931748433
@@ -216,3 +216,4 @@ MonoBehaviour:
   count: {fileID: 630778995}
   inventoryUI: {fileID: 0}
   offset: {x: 25, y: -25}
+  TargetCanvas: {fileID: 0}

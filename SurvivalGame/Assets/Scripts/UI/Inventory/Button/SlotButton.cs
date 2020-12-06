@@ -2,23 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 
 public class SlotButton : Button
 {
     [SerializeField]private SlotUI slot;
 
-    [SerializeField]private ClickEvent onRightClickEvent;
-    [SerializeField]private ClickEvent onLeftClickEvent;
-    [SerializeField]private ClickEvent onMiddleClickEvent;
+    [SerializeField]private InventorySlotEvent onRightClickEvent;
+    [SerializeField]private InventorySlotEvent onLeftClickEvent;
+    [SerializeField]private InventorySlotEvent onMiddleClickEvent;
 
-    void Start()
+    [SerializeField] private InventorySlotEvent onPointerEnter;
+    [SerializeField] private InventorySlotEvent onPointerExit;
+
+    public override void OnPointerEnter(PointerEventData eventData)
     {
-        
+        if (!interactable)
+            return;
+        onPointerEnter?.Invoke(slot.index);
+    }
+
+    public override void OnPointerExit(PointerEventData eventData)
+    {
+        if (!interactable)
+            return;
+        onPointerExit?.Invoke(slot.index);
     }
 
     public override void OnLeftClick()
     {
-        Debug.Log("Spierdalaj");
         if (!interactable)
             return;
         onLeftClickEvent?.Invoke(slot.index);
@@ -42,4 +54,4 @@ public class SlotButton : Button
 }
 
 [System.Serializable]
-public class ClickEvent : UnityEvent<int> { }
+public class InventorySlotEvent : UnityEvent<int> { }

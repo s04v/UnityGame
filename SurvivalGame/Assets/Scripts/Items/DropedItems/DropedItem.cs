@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class DropedItem : MonoBehaviour
 {
-    [SerializeField]private SpriteRenderer spriteRenderer;
-    [SerializeField]private ItemPicker item;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private ItemPicker itemPicker;
 
     void Start()
     {
-       // spriteRenderer.sprite = item.item.item.icon; d
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        itemPicker = GetComponent<ItemPicker>();
+        UpdateSprite();
+        itemPicker.update += UpdateSprite;
     }
 
-    void Update()
+    public void UpdateSprite()
     {
-        
+        spriteRenderer.sprite = itemPicker.Item.item.icon;
     }
-
 }

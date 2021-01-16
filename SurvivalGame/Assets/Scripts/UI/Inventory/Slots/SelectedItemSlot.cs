@@ -16,10 +16,7 @@ public class SelectedItemSlot : SlotUI
     }
 
     void Update()
-    {
-        /*Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);//(Vector2)Input.mousePosition + offset;// ;//
-        //mousePos -= new Vector2(Screen.height, Screen.width) / 2;
-        rect.anchoredPosition = mousePos + offset;//Input.mousePosition; //*/
+    { 
         Vector2 _newPosition;
         RectTransformUtility.ScreenPointToLocalPointInRectangle(TargetCanvas.transform as RectTransform, Input.mousePosition, TargetCanvas.worldCamera, out _newPosition);
         _newPosition += offset;

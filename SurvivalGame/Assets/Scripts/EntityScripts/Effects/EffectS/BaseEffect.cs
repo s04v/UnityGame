@@ -35,6 +35,7 @@ public abstract class BaseEffect
         if (effectData == null)
         {
             effectData = Resources.Load<EffectScriptableObject>(this.GetType().ToString());
+            Debug.Log("Rs");
         }
 
         this.entity = entity;

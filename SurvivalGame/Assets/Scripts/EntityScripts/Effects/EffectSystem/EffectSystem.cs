@@ -24,10 +24,10 @@ public class EffectSystem : MonoBehaviour
         {
             BaseEffect effect = activeEffectsList[i];
             effect.OnEffectTick();
-            if (effect.EffectScriptableObject.EffectDurableType == EffectDurableType.Durable && effect.Duration <= 0)
+            if (effect.Duration <= 0)
             {
                 effect.OnEffectEnd();
-                activeEffectsList.Remove(effect);
+                activeEffectsList.RemoveAt(i);
             }
         }
     }

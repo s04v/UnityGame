@@ -48,7 +48,6 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
 
     public void OnInventoryClose()
     {
-        Debug.Log("Close inventory");
         FreeSelectedSlot();
     }
 
@@ -155,7 +154,7 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
         
     }
 
-    public void AddItemToEmptyInventorySlots(ItemBase item, int count)//Добавляет предмет в пустой слот
+    public void AddItemToEmptyInventorySlots(Item item, int count)//Добавляет предмет в пустой слот
     {
         List<int> emptySlotsList = FindEmptySlots();
         if (emptySlotsList.Count == 0)
@@ -164,7 +163,7 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
         {
             foreach (int i in emptySlotsList)
             {
-                inventoryContent[i].item = item.Copy();
+                inventoryContent[i].item = item;
 
                 if (count <= item.maxStackSize)
                 {
@@ -196,12 +195,12 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
         }
     }
 
-    public void AddItemToInventory(ItemBase item, int count)//Добавляет предмет в инвентарь
+    public void AddItemToInventory(Item item, int count)//Добавляет предмет в инвентарь
     {
         if (item == null || count == 0)
             return;
 
-        List<int> itemList = FindItem(item);
+        List<int> itemList = FindItem(item.id);
         if (itemList.Count > 0 && item.maxStackSize > 1)
         {
             foreach (int i in itemList)
@@ -245,7 +244,7 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
             return;
         }
 
-        List<int> itemList = FindItem(item.item);
+        List<int> itemList = FindItem(item.item.id);
         if (itemList.Count > 0 && item.item.maxStackSize > 1)
         {
 
@@ -305,14 +304,19 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
 
     public void SpawnDropedItem(int index)
     {
-        
-
-        Vector2 direction = Math.RandomDirection();
+        /*Vector2 direction = Math.RandomDirection();
         float distanse = Random.Range(minDropDistance, maxDropDistance);
+        Debug.Log(direction);
 
-        RaycastHit2D [] raycastHit = new RaycastHit2D[1];
+        RaycastHit2D [] raycastHit = new RaycastHit2D[2];
 
-        if (collider2D.Raycast(direction , raycastHit, distanse + 5) > 0)
+        ContactFilter2D contactFilter = new ContactFilter2D
+        {
+            layerMask = LayerMask.GetMask("Default"),
+            useLayerMask = true
+        };
+
+        if (collider2D.Raycast(direction, contactFilter ,raycastHit, distanse) > 0)
         {
             Debug.Log(raycastHit[0].collider.gameObject.name);
             distanse = raycastHit[0].distance;
@@ -320,33 +324,20 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
 
         Debug.DrawRay(new Vector2(collider2D.bounds.center.x, collider2D.bounds.center.y), direction, Color.green, 7f);
 
-
-
-        //RaycastHit2D raycastHit = Physics2D.Raycast(new Vector2(collider2D.transform.position.x, collider2D.transform.position.y) + collider2D.offset, direction, distanse);
-
-
-
-
-        /*Debug.Log(raycastHit.collider?.gameObject.name);
-        Debug.DrawRay(new Vector2(collider2D.transform.position.x, collider2D.transform.position.y) + collider2D.offset, direction, Color.green, 7f);
-        */
-        //Debug.Log(raycastHit.collider.name == null);
-
         GameObject droppedItem = Instantiate(dropedItemPrefab);
-        droppedItem.transform.position = transform.position + new Vector3(direction.x + distanse, direction.y + distanse, 0);
+        droppedItem.transform.position = collider2D.bounds.center + new Vector3(direction.x * distanse, direction.y * distanse, 0);
 
         ItemPicker itemPicker = droppedItem.GetComponent<ItemPicker>();
         if (itemPicker == null)
             return;
-        Debug.Log(inventoryContent[index].IsNull());
-        itemPicker.Item = inventoryContent[index].Copy();
+        itemPicker.Item = inventoryContent[index].Copy();*/
 
     }
 
     public void SpawnDropedItem(InventorySlot inventorySlot)
     {
 
-        Vector2 direction = Math.RandomDirection();
+        /*Vector2 direction = Math.RandomDirection();
         float distanse = Random.Range(minDropDistance, maxDropDistance);
 
         RaycastHit2D raycastHit = Physics2D.Raycast(new Vector2(transform.position.x, transform.position.y), direction, distanse);
@@ -363,7 +354,7 @@ public class Inventory : MonoBehaviour, IEventListener<InventoryEvent>, IItemCon
         if (itemPicker == null)
             return;
 
-        itemPicker.Item = inventorySlot.Copy();
+        itemPicker.Item = inventorySlot.Copy();*/
 
     }
 

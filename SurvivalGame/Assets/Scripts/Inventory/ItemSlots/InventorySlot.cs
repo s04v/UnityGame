@@ -8,7 +8,9 @@ using UnityEngine.UI;
 [System.Serializable]
 public class InventorySlot 
 {
-    [SerializeField]private int count; 
+    [SerializeField]private int count;
+    public Item item;
+
     public int Count
     {
         get { return count; }
@@ -26,21 +28,19 @@ public class InventorySlot
         }
     }
 
-    public ItemBase item;
-
     public InventorySlot()
     {
         count = 0;
         item = null;
     }
 
-    public InventorySlot(ItemBase item)
+    public InventorySlot(Item item)
     {
         count = 1;
         this.item = item;
     }
 
-    public InventorySlot(ItemBase item, int count)
+    public InventorySlot(Item item, int count)
     {
         this.count = count;
         this.item = item;

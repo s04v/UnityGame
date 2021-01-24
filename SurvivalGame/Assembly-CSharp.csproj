@@ -69,6 +69,7 @@
     <Compile Include="Assets\EventSystem\UI\EventDelegate\ReorderableList.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Enemy\Spawner.cs" />
     <Compile Include="Assets\Scripts\EntityScripts\BaseEntityInterfaces\IEntityResourseSystem.cs" />
     <Compile Include="Assets\Scripts\EntityScripts\Effects\EffectS\BaseEffect.cs" />
     <Compile Include="Assets\Scripts\EntityScripts\Effects\EffectS\TestEffect.cs" />

@@ -263,6 +263,9 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+      <HintPath>D:/GitHub/UnityGame/SurvivalGame/Assets/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/GitHub/UnityGame/SurvivalGame/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
@@ -713,13 +716,25 @@
       <Project>{8513B4BA-B40C-80D0-1087-E4FBF499D794}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProject.csproj">
+      <Project>{8D280AF8-10D2-9739-50E7-C908084B253D}</Project>
+      <Name>AstarPathfindingProject</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Samples.Dependency.csproj">
       <Project>{29A18FAA-208A-D9BD-ACE5-0F637A803B58}</Project>
       <Name>Unity.2D.Animation.Samples.Dependency</Name>
     </ProjectReference>
+    <ProjectReference Include="PackageToolsEditor.csproj">
+      <Project>{7A3D4F1C-335C-8453-3537-EC483B6BD133}</Project>
+      <Name>PackageToolsEditor</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Samples.Runtime.csproj">
       <Project>{8121D990-103F-912E-4E39-1E8B6B1F9F52}</Project>
       <Name>Unity.2D.Animation.Samples.Runtime</Name>
+    </ProjectReference>
+    <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
+      <Project>{87D19B7D-861C-E27F-CD92-69D4DE91572E}</Project>
+      <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.2D.Animation.Samples.Editor.csproj">
       <Project>{DC396E73-346E-A1E5-4283-063DD5E70734}</Project>

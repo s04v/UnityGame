@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    private float timeBtwAttack;
+    public float startTimeBtwAttack;
+    public float attackRange = 0.1f;
+
     public Transform player;
     public float moveSpeed = 5f;
     private Rigidbody2D rb;
@@ -20,7 +24,7 @@ public class Enemy : MonoBehaviour
     {
         Vector3 direction = player.position - transform.position;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        rb.rotation = angle;
+        //rb.rotation = angle;
         direction.Normalize();
         movement = direction;
     }
@@ -31,5 +35,33 @@ public class Enemy : MonoBehaviour
     void moveCharacter(Vector2 direction)
     {
         rb.MovePosition((Vector2)transform.position + (direction * moveSpeed * Time.deltaTime));
+        if(Vector3.Distance(transform.position, player.position) < attackRange)
+        {
+            if (timeBtwAttack <= 0)
+            {
+                OnEnemyAttack();
+                timeBtwAttack = startTimeBtwAttack;
+            }
+            else
+            {
+                timeBtwAttack -= Time.deltaTime;
+            }
+        }
+    }
+    public void OnTriggerStay2D(Collider2D other)
+    {
+        Debug.Log("Attack");
+        if (other.CompareTag("Player"))
+        {
+            
+            
+        }
+    }
+   
+    public void OnEnemyAttack()
+    {
+      
+        player.GetComponent<PlayerResoursesManager>().currentHealth -= 10;
+        Debug.Log(player.GetComponent<PlayerResoursesManager>().currentHealth);
     }
 }

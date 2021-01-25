@@ -83,7 +83,7 @@
     <Compile Include="Assets\Scripts\EventSystem\IEventListener.cs" />
     <Compile Include="Assets\Scripts\EventSystem\IEventStruct.cs" />
     <Compile Include="Assets\Scripts\EventSystem\IListenerBase.cs" />
-    <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\GameAssets\GameAssets.cs" />
     <Compile Include="Assets\Scripts\Inventory\IItemContainer.cs" />
     <Compile Include="Assets\Scripts\Inventory\IUIItemContainer.cs" />
     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
@@ -91,8 +91,13 @@
     <Compile Include="Assets\Scripts\Inventory\ItemSlots\HelmetSlot.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemSlots\InventorySlot.cs" />
     <Compile Include="Assets\Scripts\Inventory\ItemSlots\LegsSlot.cs" />
+    <Compile Include="Assets\Scripts\Inventory\NewInventory\NewInventory.cs" />
     <Compile Include="Assets\Scripts\ItemSystem\DropedItems\DropedItem.cs" />
     <Compile Include="Assets\Scripts\ItemSystem\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\Items\MeleeItem.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\Items\UsableItem.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\ItemsBehavior\BaseItemBehavior.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\ItemsBehavior\HealItem.cs" />
     <Compile Include="Assets\Scripts\ItemSystem\ItemsDataBase\ItemsDataBase.cs" />
     <Compile Include="Assets\Scripts\Items\BaseItemsScripts\ItemBase.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuManager.cs" />
@@ -122,7 +127,8 @@
     <Compile Include="Assets\Scripts\UI\OldMenu\Tabs\MenuTab.cs" />
     <Compile Include="Assets\Scripts\UI\OldMenu\Tabs\MenuTabsGroup.cs" />
     <Compile Include="Assets\Scripts\UI\OldMenu\UIMenu.cs" />
-    <Compile Include="Assets\Scripts\UI\Popup\Popup.cs" />
+    <Compile Include="Assets\Scripts\UI\Popup\PopupManager.cs" />
+    <Compile Include="Assets\Scripts\UI\Popup\PopupText.cs" />
     <Compile Include="Assets\Scripts\UI\TabSystem\Tab.cs" />
     <Compile Include="Assets\Scripts\UI\TabSystem\TabSystem.cs" />
     <Compile Include="Assets\Scripts\UI\UIScripts\Bars\BaseBare.cs" />

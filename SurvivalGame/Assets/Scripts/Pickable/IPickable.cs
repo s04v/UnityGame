@@ -6,5 +6,5 @@ public interface IPickable
 {
     Sprite Icon { get; set; }
 
-    void OnPick(Player player);
+    void OnPick(PlayerPrePreAlpha player);
 }

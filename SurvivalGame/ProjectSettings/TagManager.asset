@@ -16,7 +16,7 @@ TagManager:
   - 
   - Entity
   - Dropped
-  - 
+  - Wall
   - 
   - 
   - 
@@ -41,4 +41,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Popup
+    uniqueID: 1347944555
     locked: 0

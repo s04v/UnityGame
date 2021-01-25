@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class BaseBare : MonoBehaviour
 {
-    private Slider slider;
+    [SerializeField] private Slider slider;
     [SerializeField] private Image bar;
 
     public bool Test = true;
@@ -51,7 +51,6 @@ public class BaseBare : MonoBehaviour
         {
             value = maxValue;
         }
-
         slider.value = value;
         ChangeColor();
     }
@@ -61,7 +60,6 @@ public class BaseBare : MonoBehaviour
         if (bar == null)
             return;
         float perc = (float)(value - minValue)/(float)(maxValue - minValue);
-        Debug.Log(perc);
         Color colorToChange = Color.Lerp(lowValueColor, hightValueColor, perc);
         bar.color = colorToChange;
     }

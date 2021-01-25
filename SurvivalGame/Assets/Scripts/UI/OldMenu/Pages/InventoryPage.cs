@@ -11,7 +11,7 @@ public class InventoryPage : MonoBehaviour, IUIItemContainer
 
     [SerializeField] private int hoverSlot = -1;
 
-    [SerializeField] private Inventory inventory;
+    [SerializeField] private NewInventory inventory;
 
     [Space]
     [SerializeField] private RectTransform inventoryPlane;
@@ -45,13 +45,13 @@ public class InventoryPage : MonoBehaviour, IUIItemContainer
 
     private void OnEnable()
     {
-        inventory.update += UpdateUI;
+        inventory.inventoryChanged += UpdateUI;
         UpdateUI();
     }
 
     private void OnDisable()
     {
-        inventory.update -= UpdateUI;
+        inventory.inventoryChanged -= UpdateUI;
         EventSystem.OnEventTrigger(new InventoryEvent(InventoryEventTypes.CloseInventory, null, 0));
         hoverSlot = -1;
     }
@@ -66,19 +66,19 @@ public class InventoryPage : MonoBehaviour, IUIItemContainer
 
     public void DropItem()
     {
-        if (!inventory.selectedItem.IsNull())
+        /*if (!inventory.SelectedItem.IsNull())
         {
-            inventory.DropItem(inventory.selectedItem);
+            inventory.DropItem(inventory.SelectedItem);
         }
         if (hoverSlot != -1)
         {
             inventory.DropItem(hoverSlot);
-        }
+        }*/
     }
 
     public void Initialize()//Создание UI слотов 
     {
-        int inventorySize = inventory.InventorySize, hotbarSize = inventory.HotbarSize;
+        int inventorySize = inventory.inventorySize, hotbarSize = inventory.hotBarSize;
         for (int i = 0; i < hotbarSize; i++)
         {
             GameObject slot = Instantiate(slotUIPrefab, hotbarPlane);
@@ -109,12 +109,12 @@ public class InventoryPage : MonoBehaviour, IUIItemContainer
 
     public void OnLeftSlotClicked(int index)
     {
-        inventory.OnLeftClickSlot(index);
+        inventory.OnLeftSlotClick(index);
     }
 
     public void OnRightSlotClicked(int index)
     {
-        inventory.OnRightClickSlot(index);
+        inventory.OnRightSlotClick(index);
     }
 
     public void UpdateUI()
@@ -123,10 +123,10 @@ public class InventoryPage : MonoBehaviour, IUIItemContainer
         {
             for (int i = 0; i < inventoryUISlots.Count; i++)
             {
-                inventoryUISlots[i].UpdateItem(inventory.inventoryContent[i]);
+                inventoryUISlots[i].UpdateItem(inventory.itemsContainer[i]);
             }
         }
 
-        selectedItemSlot.UpdateItem(inventory.selectedItem);
+        selectedItemSlot.UpdateItem(inventory.SelectedItem);
     }
 }

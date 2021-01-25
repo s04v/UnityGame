@@ -13,8 +13,13 @@ public class Picker : MonoBehaviour
 
     void Start()
     {
-        boxCollider2D = GetComponent<BoxCollider2D>();
-        pickableObject = GetComponent<IPickable>();
+        if (spriteRenderer == null)
+            spriteRenderer = GetComponent<SpriteRenderer>();
+        if(boxCollider2D == null)
+            boxCollider2D = GetComponent<BoxCollider2D>();
+        if(pickableObject == null)
+            pickableObject = GetComponent<IPickable>();
+
         UpdateSprite();
     }
 
@@ -34,13 +39,15 @@ public class Picker : MonoBehaviour
 
     public virtual void OnTriggerEnter2D(Collider2D collider)
     {
-        
+        Debug.Log("Triggered");
         if (!isPickable || !collider.CompareTag("Player"))
             return;
-        Player player = collider.GetComponent<Player>();
+        Debug.Log("Test");
+        PlayerPrePreAlpha player = collider.GetComponent<PlayerPrePreAlpha>();
         if (player != null)
         {
             pickableObject.OnPick(player);
         }
     }
 }
+

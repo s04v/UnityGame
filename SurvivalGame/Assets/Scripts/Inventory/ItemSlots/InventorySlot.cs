@@ -80,7 +80,6 @@ public class InventorySlot
 
     public static void SwapItems(InventorySlot slot1, InventorySlot slot2)
     {
-
         InventorySlot tmp = new InventorySlot(slot1.item, slot1.count);
         slot1.item = slot2.item;
         slot1.count = slot2.count;
@@ -97,13 +96,30 @@ public class InventorySlot
         slot.count = tmp.count;
     }
 
+    public void MergeSlots(InventorySlot slot)
+    {
+        if (item.id == slot.item.id)
+        {
+            int countToAdd = item.maxStackSize - count;
+
+            if (countToAdd >= slot.Count)
+            {
+                countToAdd = slot.Count;
+            }
+
+            Count += countToAdd;
+            slot.Count -= countToAdd;
+        }
+    }
+
     public InventorySlot Copy()
     {
         return new InventorySlot(this.item, this.count);
     }
 
-    public static InventorySlot Copy(InventorySlot slot)
+    public void Copy(InventorySlot itemToCopy)
     {
-        return new InventorySlot(slot.item, slot.count);
+        item = itemToCopy.item;
+        count = itemToCopy.count;
     }
 }

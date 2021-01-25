@@ -5,7 +5,7 @@ using UnityEngine;
 public class HotBarUI : MonoBehaviour
 {
     [SerializeField] private List<SlotUI> slots;
-    [SerializeField] private Inventory inventory;
+    [SerializeField] private NewInventory inventory;
 
     private void Awake()
     {
@@ -14,7 +14,7 @@ public class HotBarUI : MonoBehaviour
         {
             slots[i].index = i;
         }
-        inventory.update += UpdateUI;
+        //inventory.inventoryChanged += UpdateUI;
     }
 
     void Start()
@@ -28,11 +28,21 @@ public class HotBarUI : MonoBehaviour
         
     }
 
+    private void OnEnable()
+    {
+        inventory.inventoryChanged += UpdateUI;
+    }
+
+    private void OnDisable()
+    {
+        inventory.inventoryChanged -= UpdateUI;
+    }
+
     public void UpdateUI()
     {
         foreach (SlotUI slot in slots)
         {
-            slot.UpdateItem(inventory.inventoryContent[slot.index]);
+            slot.UpdateItem(inventory.itemsContainer[slot.index]);
         }
     }
 }

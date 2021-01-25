@@ -3,25 +3,16 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BaseBare
     - CameraMovement
-    - DataBase
-    - DropedItem
     - EffectScriptableObject
-    - EffectSystem
     - FlexibleGridLayout
     - GUIManagerPrePreAlpha
     - HotBarUI
-    - Inventory
     - InventoryPage
-    - Item
-    - ItemsDataBase
     - MainCamera
     - MainMenuPrePreAlpha
     - MenuButton
-    - Picker
-    - Player
-    - PlayerController
+    - NewInventory
     - PlayerPrePreAlpha
-    - PlayerResoursesManager
     - SelectedItemSlot
     - SlotButton
     - SlotUI
@@ -39,6 +30,11 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -60,58 +56,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
     - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/MainMenuPrePreAlpha.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 11240}
-    - Class: 114
-      Script: {instanceID: 11268}
-    - Class: 114
-      Script: {instanceID: 11618}
-    - Class: 114
-      Script: {instanceID: 11918}
-    - Class: 114
-      Script: {instanceID: 12230}
-    - Class: 114
-      Script: {instanceID: 12300}
-    - Class: 114
-      Script: {instanceID: 13826}
-    - Class: 114
-      Script: {instanceID: 14476}
-    - Class: 114
-      Script: {instanceID: 24038}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    Assets/Scenes/Game.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -128,74 +73,58 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 594}
+      Script: {instanceID: 620}
     - Class: 114
-      Script: {instanceID: 11236}
+      Script: {instanceID: 11262}
     - Class: 114
-      Script: {instanceID: 11238}
+      Script: {instanceID: 11264}
     - Class: 114
-      Script: {instanceID: 11240}
-    - Class: 114
-      Script: {instanceID: 11242}
+      Script: {instanceID: 11266}
     - Class: 114
       Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11618}
+      Script: {instanceID: 11292}
     - Class: 114
-      Script: {instanceID: 11738}
+      Script: {instanceID: 11644}
     - Class: 114
-      Script: {instanceID: 11918}
+      Script: {instanceID: 11744}
     - Class: 114
-      Script: {instanceID: 12014}
+      Script: {instanceID: 11766}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 11912}
     - Class: 114
-      Script: {instanceID: 12348}
+      Script: {instanceID: 11950}
     - Class: 114
-      Script: {instanceID: 12478}
+      Script: {instanceID: 12596}
     - Class: 114
-      Script: {instanceID: 12514}
+      Script: {instanceID: 13246}
     - Class: 114
-      Script: {instanceID: 12550}
+      Script: {instanceID: 13416}
     - Class: 114
-      Script: {instanceID: 13194}
+      Script: {instanceID: 13688}
     - Class: 114
-      Script: {instanceID: 13210}
+      Script: {instanceID: 13864}
     - Class: 114
-      Script: {instanceID: 13380}
+      Script: {instanceID: 13880}
     - Class: 114
-      Script: {instanceID: 13616}
+      Script: {instanceID: 14116}
     - Class: 114
-      Script: {instanceID: 13652}
+      Script: {instanceID: 14172}
     - Class: 114
-      Script: {instanceID: 13692}
+      Script: {instanceID: 14550}
     - Class: 114
-      Script: {instanceID: 13826}
-    - Class: 114
-      Script: {instanceID: 13842}
-    - Class: 114
-      Script: {instanceID: 14078}
-    - Class: 114
-      Script: {instanceID: 14134}
-    - Class: 114
-      Script: {instanceID: 14158}
-    - Class: 114
-      Script: {instanceID: 14450}
-    - Class: 114
-      Script: {instanceID: 14476}
-    - Class: 114
-      Script: {instanceID: 14510}
-    - Class: 114
-      Script: {instanceID: 14560}
-    - Class: 114
-      Script: {instanceID: 30232}
-    - Class: 114
-      Script: {instanceID: 39010}
+      Script: {instanceID: 14602}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -216,11 +145,74 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 225
       Script: {instanceID: 0}
+    - Class: 19719996
+      Script: {instanceID: 0}
     - Class: 156049354
       Script: {instanceID: 0}
     - Class: 483693784
       Script: {instanceID: 0}
     - Class: 1839735485
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenuPrePreAlpha.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11266}
+    - Class: 114
+      Script: {instanceID: 11292}
+    - Class: 114
+      Script: {instanceID: 11644}
+    - Class: 114
+      Script: {instanceID: 11950}
+    - Class: 114
+      Script: {instanceID: 12262}
+    - Class: 114
+      Script: {instanceID: 12332}
+    - Class: 114
+      Script: {instanceID: 12388}
+    - Class: 114
+      Script: {instanceID: 13426}
+    - Class: 114
+      Script: {instanceID: 13444}
+    - Class: 114
+      Script: {instanceID: 13864}
+    - Class: 114
+      Script: {instanceID: 14152}
+    - Class: 114
+      Script: {instanceID: 14516}
+    - Class: 114
+      Script: {instanceID: 14598}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -327,6 +319,12 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
+      Hash: 07621a76b97279e68b21e827bb01f546
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MeleeItem
+  - hash:
+      serializedVersion: 2
       Hash: abf1930d8126d0b2e00e9449129a0190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -363,6 +361,12 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
+      Hash: 2eee047b0a1132e647f3d302fa709c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GUIManagerPrePreAlpha
+  - hash:
+      serializedVersion: 2
       Hash: 84242cc6783df182fc33a3ee75953681
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -373,6 +377,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: 
     className: SpriteShapeGeometryCache
+  - hash:
+      serializedVersion: 2
+      Hash: 633af537b117db89e2b030624128004c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameAssets
   - hash:
       serializedVersion: 2
       Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
@@ -397,6 +407,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 9f2923fc5a7a72895c8f333d05aaab76
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NewInventory
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -555,6 +571,12 @@ ScriptsOnlyBuild:
     className: Picker
   - hash:
       serializedVersion: 2
+      Hash: 7063a014025f0906bd84c14845e5e4bb
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerPrePreAlpha
+  - hash:
+      serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -637,6 +659,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CloseButton
+  - hash:
+      serializedVersion: 2
+      Hash: 4cc3c7512eee3297dc489de1847b3212
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PopupText
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
@@ -753,10 +781,16 @@ ScriptsOnlyBuild:
     className: Item
   - hash:
       serializedVersion: 2
-      Hash: 25946eb4e271b2b0b2362911ddf9bf70
+      Hash: ae2971617574a52ace5103c3468daf72
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: HotBarUI
+  - hash:
+      serializedVersion: 2
+      Hash: 061344a858f8900c1325902e73fccb52
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PopupManager
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -885,6 +919,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BaseItemBehavior
+  - hash:
+      serializedVersion: 2
       Hash: 567dac125e0e33d3ec28c0853c59c0f5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -957,7 +997,13 @@ ScriptsOnlyBuild:
     className: ToggleGroup
   - hash:
       serializedVersion: 2
-      Hash: 84690a2de04d522b4b714e878fcc0e51
+      Hash: f867c2849963d6c677a7622759d2c6e6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MainMenuPrePreAlpha
+  - hash:
+      serializedVersion: 2
+      Hash: d00196c451bcdc3e997ba45a29287ce5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: InventoryPage
@@ -979,26 +1025,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Samples.Runtime.dll
     namespaceName: Unity.U2D.Animation.Sample
     className: SwapPart
-  - hash:
-      serializedVersion: 2
-      Hash: f867c2849963d6c677a7622759d2c6e6
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: MainMenuPrePreAlpha
-  - hash:
-      serializedVersion: 2
-      Hash: 2eee047b0a1132e647f3d302fa709c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GUIManagerPrePreAlpha
-  - hash:
-      serializedVersion: 2
-      Hash: 43e11f5d3402d6638cf492c4c2132f02
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerPrePreAlpha
   platform: 5
   scenePathNames:
   - Assets/Scenes/MainMenuPrePreAlpha.unity
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/Game.unity
   playerPath: "C:/Users/dimon/OneDrive/\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B/GameBuild1/SurvivalGame.exe"

@@ -29,9 +29,12 @@ public class DropedItem : MonoBehaviour, IPickable
         
     }
 
-    public void OnPick(Player player)
+    public void OnPick(PlayerPrePreAlpha player)
     {
+        Debug.Log("Picked");
+
         player.inventory.AddItemToInventory(inventorySlot);
+
         if (inventorySlot.Count == 0)
             Destroy(gameObject);
     }

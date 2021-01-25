@@ -21,7 +21,8 @@ public class PlayerPrePreAlpha : MonoBehaviour
 
     [Header("Other:")]
     [SerializeField] private Rigidbody2D myRigidbody;
-    public Inventory inventory;
+    public NewInventory inventory;
+    [SerializeField] private Animator animator;
 
 
     //Events
@@ -44,9 +45,15 @@ public class PlayerPrePreAlpha : MonoBehaviour
         if(myRigidbody == null)
             myRigidbody = GetComponent<Rigidbody2D>();
         if (inventory == null)
-            inventory = GetComponent<Inventory>();
+            inventory = GetComponent<NewInventory>();
+        if (animator == null)
+            animator = GetComponent<Animator>();
 
         updateHealth?.Invoke(currentHealth);
+        //Popup.Create(transform.position, "300");
+        /*PopupManager.CreatePopupText(transform.position, "200", Color.red);
+        PopupManager.CreatePopupText(transform.position + new Vector3(2, 4, 0), "100", Color.blue);
+        PopupManager.CreatePopupText(transform.position + new Vector3(-5, -3, 0), "100");*/
     }
 
     private void Update()
@@ -55,8 +62,11 @@ public class PlayerPrePreAlpha : MonoBehaviour
         if (Test)
         {
             updateHealth?.Invoke(currentHealth);
+            PopupManager.CreatePopupText(transform.position, "200", Color.red);
             Test = false;
         }
+        //Debug.Log(Input.mousePosition);
+        
     }
 
     private void FixedUpdate()
@@ -68,21 +78,33 @@ public class PlayerPrePreAlpha : MonoBehaviour
     {
         if (!isDead)
         {
+            //Input.GEt
             if (Input.GetButtonDown("Fire1"))
             {
-                //Use
+                animator.SetTrigger("Attack");
+                inventory.Use(this);
             }
+
+            if (Input.GetAxis("Mouse ScrollWheel") > 0)
+            { }
+            else if (Input.GetAxis("Mouse ScrollWheel") < 0)
+            { }
 
             change = Vector2.zero;
             change.x = Input.GetAxisRaw("Horizontal");
             change.y = Input.GetAxisRaw("Vertical");
             if (change.x != 0 || change.y != 0)
+            {
                 isMoving = true;
+                animator.SetFloat("Horizontal", change.x);
+                animator.SetFloat("Vertical", change.y);
+                animator.SetFloat("Speed", change.magnitude);
+            }
             else
+            {
                 isMoving = false;
-
-
-            
+                animator.SetFloat("Speed", 0f);
+            }
         }
     }
 

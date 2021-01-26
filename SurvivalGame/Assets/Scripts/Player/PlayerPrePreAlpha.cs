@@ -24,6 +24,8 @@ public class PlayerPrePreAlpha : MonoBehaviour
     public NewInventory inventory;
     [SerializeField] private Animator animator;
 
+    [SerializeField] private Transform pfBullet;
+    public Transform firePoint;
 
     //Events
     public delegate void UpdateHealth(int newValue);
@@ -83,6 +85,16 @@ public class PlayerPrePreAlpha : MonoBehaviour
             {
                 animator.SetTrigger("Attack");
                 inventory.Use(this);
+
+
+                Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                Vector2 lookDir = mousePos - myRigidbody.position;
+                float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+                Transform bullet = Instantiate(pfBullet, transform.position, Quaternion.identity);
+                bullet.transform.position = transform.position;
+                bullet.transform.rotation = Quaternion.Euler(0, 0, angle);
+
+                bullet.GetComponent<Rigidbody2D>().AddForce(lookDir * 2f,ForceMode2D.Impulse);
             }
 
             if (Input.GetAxis("Mouse ScrollWheel") > 0)

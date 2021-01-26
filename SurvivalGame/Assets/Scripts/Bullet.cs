@@ -20,28 +20,28 @@ public class Bullet : MonoBehaviour
     public void Setup(Vector3 shootDir)
     {
         this.shootDir = shootDir;
-        transform.eulerAngles = new Vector3(0, 0, this.GetAngelFromVectorFloat(shootDir));
-        Destroy(gameObject, 5f);
+       // transform.eulerAngles = new Vector3(0, 0, this.GetAngelFromVectorFloat(shootDir));
+        //Destroy(gameObject, 5f);
     }
     void Start()
     {
-        rb.velocity = transform.right * speed;
+        //rb.velocity = transform.right * speed;
     }
 
     void Update()
     {
-        float moveSpeed = 100f;
-        transform.position += shootDir * moveSpeed * Time.deltaTime;
+        //float moveSpeed = f;
+        transform.position += shootDir * speed * Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider hitInfo)
     {
-       // Debug.Log("OnTrigger");
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
+        Debug.Log("OnTrigger");
+       /* Enemy enemy = hitInfo.GetComponent<Enemy>();
         if(enemy != null)
         {
             enemy.TakeDamage(damage);
         }
-        Destroy(gameObject);
+        Destroy(gameObject);*/
     }
 }

@@ -104,6 +104,7 @@
     <Compile Include="Assets\Scripts\ItemSystem\ItemsDataBase\ItemsDataBase.cs" />
     <Compile Include="Assets\Scripts\Items\BaseItemsScripts\ItemBase.cs" />
     <Compile Include="Assets\Scripts\KillCounter.cs" />
+    <Compile Include="Assets\Scripts\LootSpawner.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\MainMenu\MainMenuPrePreAlpha.cs" />
     <Compile Include="Assets\Scripts\Pickable\IPickable.cs" />
@@ -112,6 +113,7 @@
     <Compile Include="Assets\Scripts\PlayerScripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerScripts\PlayerResoursesManager.cs" />
+    <Compile Include="Assets\Scripts\SP2.cs" />
     <Compile Include="Assets\Scripts\Spawner.cs" />
     <Compile Include="Assets\Scripts\Stats\Stat.cs" />
     <Compile Include="Assets\Scripts\Stats\StatModifier.cs" />

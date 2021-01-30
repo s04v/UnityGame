@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 414809854298880675}
   - component: {fileID: 4065825626088666494}
-  - component: {fileID: -5556280970522146792}
   - component: {fileID: 3078966127531582471}
   - component: {fileID: 3085073703439647307}
   - component: {fileID: 5840360053135922695}
@@ -30,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 6410827585598799902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -63.41, y: -24.76, z: -13.603516}
-  m_LocalScale: {x: 0.26415965, y: 0.32735544, z: 1.5301}
+  m_LocalScale: {x: 0.16592526, y: 0.18410143, z: 1.5301}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -85,21 +84,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-5556280970522146792
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6410827585598799902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47b22eaaa32994d4788dd573aa0a60f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  rb: {fileID: 0}
-  damage: 30
 --- !u!50 &3078966127531582471
 Rigidbody2D:
   serializedVersion: 4
@@ -133,7 +117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47b22eaaa32994d4788dd573aa0a60f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 30
   rb: {fileID: 3078966127531582471}
   damage: 30
 --- !u!61 &5840360053135922695
@@ -146,7 +130,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

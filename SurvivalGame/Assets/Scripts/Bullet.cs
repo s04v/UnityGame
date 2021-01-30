@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     private Vector3 shootDir;
     public Rigidbody2D rb;
     public int damage = 30;
+
+   
     private float GetAngelFromVectorFloat(Vector3 dir)
     {
         dir = dir.normalized;
@@ -34,14 +36,17 @@ public class Bullet : MonoBehaviour
         transform.position += shootDir * speed * Time.deltaTime;
     }
 
-    private void OnTriggerEnter2D(Collider hitInfo)
+    public void  Die()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnCollisionEnter2D(Collider hitInfo)
     {
         Debug.Log("OnTrigger");
-       /* Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if(enemy != null)
+        if(hitInfo.tag == "Wall")
         {
-            enemy.TakeDamage(damage);
+            Destroy(this);
         }
-        Destroy(gameObject);*/
     }
 }

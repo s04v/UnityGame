@@ -6,6 +6,7 @@ TagManager:
   tags:
   - UICamera
   - KillCounter
+  - Wall
   layers:
   - Default
   - TransparentFX

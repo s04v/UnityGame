@@ -24,4 +24,9 @@ public class KillCounter : MonoBehaviour
         return kills;
     }
 
+    public void ResetKills()
+    {
+        kills = 0;
+    }
+
 }
